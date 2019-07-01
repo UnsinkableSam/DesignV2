@@ -1,0 +1,171 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";
+// Just an example module
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+//@import "base/base.less";
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/layout_default.less";
+@import "layout/responsive_default.less";
+//@import "layout/layout.less";
+//@import "layout/responsive.less";
+@import "layout/regions.less";
+// To add style for ?regions
+/**
+ * My own settings, not currently in their own module.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+fonts Quicksand / Kaushan script / Noto, 
+*/
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Noto+Sans+TC|Quicksand&display=swap");
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/** 
+* import horizontal grid 
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+/**
+* import vgrid.less
+*/
+@import "layout/vgrid.less";
+
+/**
+* import hgrid.less
+*/
+@import "layout/hgrid.less";
+
+/**
+* typographics
+*/
+
+// Magic number and default fontsize, together makes up base lineheight
+@magicNumber: 24px;
+@fontSizeBody: 16px;
+
+// Set font family to use
+@fontFamilyHeadings: "Kaushan Script", cursive;
+@fontFamilyBody: "Quicksand";
+@fontFamilyCode: "Noto Sans TC", "sans-serif";
+
+/** 
+* Design
+*/
+
+.site-logo-text {
+  // font-size: 2em;
+  h2 {
+    margin-top: -1px;
+  }
+  a {
+    color: black;
+  }
+}
+
+.outer-wrap-header {
+  background: white;
+}
+
+.region-flash {
+  text-align: center;
+}
+
+.inner-wrap-main {
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(-45deg, #db3069, #e73c7e);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+.toc {
+  background: white;
+}
+
+.next {
+  float: left;
+}
+
+html {
+  // width: 100wh;
+  // #desinax-vgrid.column(@columns);
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e);
+  background-size: 400% 400%;
+  // -webkit-animation: Gradient 15s ease infinite;
+  // -moz-animation: Gradient 15s ease infinite;
+  // animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

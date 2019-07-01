@@ -17,7 +17,9 @@ return [
         [
             "text" => "Redovisning",
             "url" => "redovisning",
+            
             "title" => "Redovisningstexter från kursmomenten.",
+            
             "submenu" => [
                 "items" => [
                     [

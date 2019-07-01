@@ -170,6 +170,9 @@ tag-prepare:
 
 
 
+
+
+
 # ----------------------------------------------------------------------------
 #
 # docker
@@ -406,8 +409,15 @@ bats:
 .PHONY: theme
 theme:
 	@$(call HELPTEXT,$@)
+
+	cd theme 
+	$(LESSC) --include-path=$(LESS_INCLUDE_PATH) --lint $(LESS_SOURCE) > build/lint/style.less
+	- $(ESLINT) build/css/style.css > build/lint/style.css
+	cd ..
 	[ ! -d theme ] || $(MAKE) --directory=theme build
 	rsync -a theme/htdocs/css htdocs/
+
+
 
 
 

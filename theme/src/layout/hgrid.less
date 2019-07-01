@@ -1,0 +1,26 @@
+// Activate the grid base font
+body {
+  #desinax-hgrid.font(@fontSizeBody);
+}
+
+@fontfamilybody = "serfi";
+
+#desinax-hgrid.activateDefaultTypography();
+
+h4,
+h2 {
+  border-bottom: none;
+}
+
+.hgrid .inner-wrap {
+  @gridImage: "../img/magic-number-@{magicNumber}.png";
+  #desinax-hgrid.showGrid(@gridImage);
+}
+
+@media only screen and (max-width: 414px) {
+  @fontSizeBody: 10px;
+  @magicNumber: 24px;
+  body {
+    #desinax-hgrid.font(@fontSizeBody);
+  }
+}
