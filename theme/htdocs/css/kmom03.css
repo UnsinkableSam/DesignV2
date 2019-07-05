@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  font: 17px/1.41176471 "Quicksand";
+  font: 16px/1.5 "Quicksand";
 }
 @fontfamilybody = "serfi";
 h1,
@@ -50,7 +50,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.18885449;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -68,7 +68,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.50588235;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -78,7 +78,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.61344538;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -88,7 +88,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.88235294;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -98,7 +98,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.12941176;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -107,7 +107,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.12941176;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -257,7 +257,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.61344538;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -5497,21 +5497,21 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .article {
   display: inline;
   float: left;
-  width: 82.29166667%;
+  width: 69.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-siderbar-left {
   display: inline;
   float: left;
-  width: 15.625%;
+  width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-sidebar-right {
   display: inline;
   float: left;
-  width: 15.625%;
+  width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
@@ -5521,21 +5521,21 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .toc {
   display: inline;
   float: left;
-  width: 15.625%;
+  width: 19.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .next-previous {
   display: inline;
   float: left;
-  width: 82.29166667%;
+  width: 69.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .next-previous div {
   display: inline;
   float: left;
-  width: 48.95833333%;
+  width: 34.375%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
@@ -5637,7 +5637,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 * import hgrid.less
 */
 body {
-  font: 17px/1.41176471 "Quicksand";
+  font: 16px/1.5 "Quicksand";
 }
 @fontfamilybody = "serfi";
 h1,
@@ -5660,7 +5660,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.18885449;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -5678,7 +5678,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.50588235;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -5688,7 +5688,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.61344538;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -5698,7 +5698,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.88235294;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -5708,7 +5708,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.12941176;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -5717,7 +5717,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.12941176;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -5867,7 +5867,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.61344538;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
