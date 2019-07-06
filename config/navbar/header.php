@@ -35,6 +35,23 @@ return [
                 ],
             ],
         ],
+
+        [
+            "text" => "Rapport",
+            "url" => "Rapport",
+            
+            "title" => "Design Rapporter.",
+            
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapport färg schema",
+                        "url" => "redovisning/kmom01",
+                        "title" => "Redovisning för kmom01.",
+                    ],
+                ],
+            ],
+        ],
         [
             "text" => "Om",
             "url" => "om",
