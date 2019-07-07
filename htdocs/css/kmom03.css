@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  font: 16px/1.5 "Quicksand";
+  font: 16px/1.375 "Quicksand";
 }
 @fontfamilybody = "serfi";
 h1,
@@ -37,8 +37,8 @@ h4,
 h5,
 h6 {
   font-family: "Kaushan Script", cursive;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 h1 img,
 h2 img,
@@ -50,10 +50,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.26315789;
+  line-height: 1.15789474;
   font-weight: normal;
   border-bottom: 1px solid #666;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -61,58 +61,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 48px;
+  margin-top: 44px;
 }
 h1 + h2 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.6;
+  line-height: 1.46666667;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.71428571;
+  line-height: 1.57142857;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1;
+  line-height: 1.83333333;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.2;
-  margin-bottom: 23px;
+  line-height: 1.1;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.2;
-  margin-bottom: 23px;
+  line-height: 1.1;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 small,
 .small,
@@ -153,7 +153,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 pre,
 code,
@@ -179,7 +179,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 pre code {
   display: block;
@@ -189,21 +189,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 23px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  margin-bottom: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 ul ul,
 ol ul,
@@ -218,7 +218,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 dl.horizontal dt {
   clear: left;
@@ -236,7 +236,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 table.full-width,
 article .table,
@@ -257,7 +257,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.71428571;
+  line-height: 1.57142857;
   text-align: left;
   font-style: italic;
 }
@@ -279,7 +279,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 6px;
+  padding: 5.5px;
 }
 article table tr,
 .table tr,
@@ -303,8 +303,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 35px;
-  margin-bottom: 36px;
+  margin-top: 32px;
+  margin-bottom: 33px;
 }
 hr::after {
   content: "§";
@@ -5482,31 +5482,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-.footer-column {
-  display: inline;
-  float: left;
-  width: 32.29166667%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.region-main {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-/*
-.has-sidebar-left {
-  
-    #desinax-vgrid.column(17) !important;
-}
-*/
 .rm-desktop li {
-  background: white;
-}
-.region-sidebar-left,
-.region-sidebar-right {
   background: white;
 }
 .region-main {
@@ -5515,38 +5491,39 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   width: 73.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 8.85416667%;
 }
-.wrap-sidebar,
-.has-sidebar-left,
-.has-sidebar,
-region-siderbar-left {
+.region-main.has-sidebar {
+  margin-left: 0.52083333%;
+}
+.region-main.has-sidebar-right {
   display: inline;
   float: left;
-  width: 23.95833333%;
+  width: 69.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-.wrap-sidebar .toc,
-.has-sidebar-left .toc,
-.has-sidebar .toc,
-region-siderbar-left .toc {
-  background: white;
+.region-main.has-sidebar-left.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 78.125%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
+.region-sidebar-left,
 .region-sidebar-right {
   display: inline;
   float: left;
-  width: 23.95833333%;
+  width: 19.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.region-sidebar-right {
+  margin-left: 4.6875%;
 }
 .region-sidebar-right h4 {
   color: black;
 }
-/*
-.region-main {
-  #desinax-vgrid.column(24);
-}
-*/
 .toc {
   display: inline;
   float: left;
@@ -5575,7 +5552,7 @@ region-siderbar-left .toc {
   float: left;
 }
 .selected a {
-  color: grey !important;
+  color: white!important;
 }
 .breadcrumb-list ul {
   list-style: none;
@@ -5595,64 +5572,66 @@ region-siderbar-left .toc {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  text-align: center;
+  margin-left: 46.35416667%;
+}
+.footer-column {
+  display: inline;
+  float: left;
+  width: 19.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 13.02083333%;
 }
 .footer-column-x {
-  margin-left: 40%;
+  margin-left: 2.60416667%;
 }
-@media only screen and (max-width: 1440px) {
-  .footer-column-x {
-    margin-left: 38%;
-  }
-  .footer-column-x img {
-    width: 35%;
-  }
-}
-@media only screen and (max-width: 1050px) {
-  .footer-column-x {
-    margin-left: 40%;
-  }
-  .footer-column-x img {
-    width: 35%;
-  }
-  .region-sidebar-left {
-    display: none;
-  }
-  .my-navbar {
+/** 
+* Responsive.
+*  
+*/
+@media only screen and (max-width: 1100px) {
+  .rm-desktop {
     display: none;
   }
 }
-@media only screen and (max-width: 637px) {
-  .footer-column-x {
-    margin-left: 47%;
+@media only screen and (max-width: 1000px) {
+  .region-main {
+    display: inline;
+    float: left;
+    width: 73.95833333%;
+    margin-right: 0.52083333%;
+    margin-left: 0.52083333%;
   }
-  .footer-column-x img {
-    width: 40%;
-  }
-}
-@media only screen and (max-width: 649px) {
-  .footer-column-x {
-    margin-left: 40%;
-  }
-  .footer-column-x img {
-    width: 30%;
-  }
-  .region-sidebar-left {
-    display: none;
-  }
-  .next-previous {
+  .region-main.has-sidebar-left.has-sidebar-right {
     display: inline;
     float: left;
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-  .article {
+  .region-sidebar-left {
     display: inline;
     float: left;
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+  }
+  .region-sidebar-left,
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .region-main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-right: 0.52083333%;
+    margin-left: 0.52083333%;
   }
   .region-sidebar-right {
     display: inline;
@@ -5666,7 +5645,7 @@ region-siderbar-left .toc {
 * import hgrid.less
 */
 body {
-  font: 16px/1.5 "Quicksand";
+  font: 16px/1.375 "Quicksand";
 }
 @fontfamilybody = "serfi";
 h1,
@@ -5676,8 +5655,8 @@ h4,
 h5,
 h6 {
   font-family: "Kaushan Script", cursive;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 h1 img,
 h2 img,
@@ -5689,10 +5668,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.26315789;
+  line-height: 1.15789474;
   font-weight: normal;
   border-bottom: 1px solid #666;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -5700,58 +5679,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 48px;
+  margin-top: 44px;
 }
 h1 + h2 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.6;
+  line-height: 1.46666667;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.71428571;
+  line-height: 1.57142857;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1;
+  line-height: 1.83333333;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.2;
-  margin-bottom: 23px;
+  line-height: 1.1;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.2;
-  margin-bottom: 23px;
+  line-height: 1.1;
+  margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 small,
 .small,
@@ -5792,7 +5771,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 pre,
 code,
@@ -5818,7 +5797,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 pre code {
   display: block;
@@ -5828,21 +5807,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 23px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  margin-bottom: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 ul ul,
 ol ul,
@@ -5857,7 +5836,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 dl.horizontal dt {
   clear: left;
@@ -5875,7 +5854,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 table.full-width,
 article .table,
@@ -5896,7 +5875,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.71428571;
+  line-height: 1.57142857;
   text-align: left;
   font-style: italic;
 }
@@ -5918,7 +5897,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 6px;
+  padding: 5.5px;
 }
 article table tr,
 .table tr,
@@ -5942,8 +5921,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 35px;
-  margin-bottom: 36px;
+  margin-top: 32px;
+  margin-bottom: 33px;
 }
 hr::after {
   content: "§";
@@ -5953,14 +5932,11 @@ hr::after {
   padding: 0 0.25em;
   background-color: #fff;
 }
-h4,
-h2 {
-  border-bottom: none;
-}
 .hgrid .inner-wrap {
-  background-image: url("../img/magic-number-24px.png");
+  background-image: url("../img/magic-number-22px.png");
 }
-.hgrid .inner-wrap .toc {
+.hgrid .inner-wrap .region-sidebar-left,
+.hgrid .inner-wrap .region-sidebar-right {
   background: transparent;
 }
 @media only screen and (max-width: 414px) {

@@ -7,15 +7,16 @@ body {
 
 #desinax-hgrid.activateDefaultTypography();
 
-h4,
-h2 {
-  border-bottom: none;
-}
+// h4,
+// h2 {
+//   border-bottom: none;
+// }
 
 .hgrid .inner-wrap {
   @gridImage: "../img/magic-number-@{magicNumber}.png";
   #desinax-hgrid.showGrid(@gridImage);
-  .toc {
+  .region-sidebar-left,
+  .region-sidebar-right {
     background: transparent;
   }
 }
