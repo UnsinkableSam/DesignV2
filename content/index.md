@@ -6,4 +6,4 @@ title: "Min fina titel"
 
 Tja Sam Pettersson pluggar webbprogrammering på bth, detta är min sida
 
-[FIGURE src="image/bridge-daylight-environment-775201.jpg" class="right"]
+

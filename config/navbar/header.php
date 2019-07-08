@@ -38,7 +38,7 @@ return [
 
         [
             "text" => "Rapport",
-            "url" => "Rapport",
+            "url" => "rapport/index",
             
             "title" => "Design Rapporter.",
             
@@ -46,8 +46,8 @@ return [
                 "items" => [
                     [
                         "text" => "Rapport färg schema",
-                        "url" => "redovisning/kmom01",
-                        "title" => "Redovisning för kmom01.",
+                        "url" => "rapport/färgschema",
+                        "title" => "Rapport färg schema",
                     ],
                 ],
             ],

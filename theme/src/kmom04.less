@@ -76,12 +76,12 @@ fonts Quicksand / Kaushan script / Noto,
 
 // Magic number and default fontsize, together makes up base lineheight
 @magicNumber: 22px;
-@fontSizeBody: 16px;
+@fontSizeBody: 18px;
 
 // Set font family to use
 @fontFamilyHeadings: "Kaushan Script", cursive;
-@fontFamilyBody: "Quicksand";
-@fontFamilyCode: "Noto Sans TC", "sans-serif";
+//@fontFamilyBody: "Quicksand";
+//@fontFamilyCode: "Noto Sans TC", "sans-serif";
 
 /** 
 * Design
@@ -106,19 +106,8 @@ fonts Quicksand / Kaushan script / Noto,
 }
 
 .inner-wrap-main {
-  // box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  // background: linear-gradient(-45deg, #db3069, #e73c7e);
-  // // background-size: 400% 400%;
-  // -webkit-animation: Gradient 15s ease infinite;
-  // -moz-animation: Gradient 15s ease infinite;
-  // animation: Gradient 15s ease infinite;
-  background-image: linear-gradient(
-    45deg,
-    #c773a0 57%,
-    rgba(106, 89, 212, 0.761) 100%
-  );
-
-  box-shadow: 0rem 1.375rem 5rem 2rem rgba(0, 0, 0, 0.251);
+  
+ 
 }
 
 
@@ -137,50 +126,14 @@ fonts Quicksand / Kaushan script / Noto,
 
 
 html {
-  // width: 100wh;
-  // #desinax-vgrid.column(@columns);
-  height: 90vh;
-  color: #fff;
-  //background: linear-gradient(-45deg, #ee7752, #e73c7e);
-  background: #c773a0;
-  background-size: 400% 400%;
-  // -webkit-animation: Gradient 15s ease infinite;
-  // -moz-animation: Gradient 15s ease infinite;
-  // animation: Gradient 15s ease infinite;
-}
+  .rm-desktop {
+    display:none;
+  }
 
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
+
+
+  .rm-navbar {
+    color:#6AEA00 !important;
   }
 }
 
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}

@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  font: 16px/1.375 "Quicksand";
+  font: 18px/1.22222222 "sans-serif";
 }
 @fontfamilybody = "serfi";
 h1,
@@ -50,7 +50,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.15789474;
+  line-height: 1.02923977;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 21px;
@@ -68,7 +68,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.46666667;
+  line-height: 1.3037037;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
@@ -78,7 +78,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -88,7 +88,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.83333333;
+  line-height: 1.62962963;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -98,7 +98,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -107,7 +107,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -160,7 +160,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "Noto Sans TC", "sans-serif";
+  font-family: "monospace";
 }
 code,
 samp {
@@ -257,7 +257,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   text-align: left;
   font-style: italic;
 }
@@ -5644,7 +5644,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 * import hgrid.less
 */
 body {
-  font: 16px/1.375 "Quicksand";
+  font: 18px/1.22222222 "sans-serif";
 }
 @fontfamilybody = "serfi";
 h1,
@@ -5667,7 +5667,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.15789474;
+  line-height: 1.02923977;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 21px;
@@ -5685,7 +5685,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.46666667;
+  line-height: 1.3037037;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
@@ -5695,7 +5695,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -5705,7 +5705,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.83333333;
+  line-height: 1.62962963;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -5715,7 +5715,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5724,7 +5724,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5777,7 +5777,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "Noto Sans TC", "sans-serif";
+  font-family: "monospace";
 }
 code,
 samp {
@@ -5874,7 +5874,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   text-align: left;
   font-style: italic;
 }
@@ -5940,7 +5940,7 @@ hr::after {
 }
 @media only screen and (max-width: 414px) {
   body {
-    font: 10px/2.4 "Quicksand";
+    font: 10px/2.4 "sans-serif";
   }
 }
 /**
@@ -5961,52 +5961,15 @@ hr::after {
 .region-flash {
   text-align: center;
 }
-.inner-wrap-main {
-  background-image: linear-gradient(45deg, #c773a0 57%, rgba(106, 89, 212, 0.761) 100%);
-  box-shadow: 0rem 1.375rem 5rem 2rem rgba(0, 0, 0, 0.251);
-}
 .next {
   float: left;
 }
 .article img {
   width: 80%;
 }
-html {
-  height: 90vh;
-  color: #fff;
-  background: #c773a0;
-  background-size: 400% 400%;
+html .rm-desktop {
+  display: none;
 }
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+html .rm-navbar {
+  color: #6AEA00 !important;
 }
