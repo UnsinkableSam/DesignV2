@@ -152,7 +152,7 @@ $route = "route-" . str_replace("/", "-", $di->get("request")->getRoute());
             <div class="inner-wrap inner-wrap-flash">
                 <div class="row">
                     <div class="region-flash">
-                        <title> Sam-Corp </title>
+                        <?php renderRegion("flash") ?>
 
                     </div>
                 </div>

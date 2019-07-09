@@ -19,10 +19,10 @@ views:
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Design är coolt men jag har ingen talang för det vilket gör det enbart frunstrerande men kursen verkar bra. Jag gillar dock inte att jobba med grid för det känns som jag aldrig 
+direkt kommer använda denna stilen för att skapa en hemsida. 
+Men kan väl kanske vara bra att kunna ifall det skulle hända. 
 
-Skriv några kloka ord om kursen?
+Tycker grid är knepigt och att komma på en design ide. 
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/info2-512.png?w=300]
