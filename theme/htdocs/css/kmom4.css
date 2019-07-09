@@ -5968,6 +5968,9 @@ hr::after {
 .region-flash {
   text-align: center;
 }
+.avatar img {
+  width: 150px;
+}
 .toc ul {
   list-style: none;
 }
