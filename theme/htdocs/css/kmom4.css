@@ -5423,7 +5423,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
 }
 .row::after {
   content: "";
@@ -5431,22 +5431,22 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   clear: both;
 }
 .region {
-  height: 80px;
+  height: 20rem;
 }
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1100px;
+  max-width: 80%;
 }
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
-  max-width: 98%;
+  max-width: 80%;
 }
 .inner-wrap-footer {
   margin-right: auto;
   margin-left: auto;
-  max-width: 98%;
+  max-width: 80%;
 }
 .region-header-col-1 {
   display: inline;
@@ -5491,7 +5491,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   width: 73.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-left: 8.85416667%;
+  margin-left: 13.02083333%;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5969,7 +5969,7 @@ hr::after {
   text-align: center;
 }
 .avatar img {
-  width: 150px;
+  width: 20rem;
 }
 .toc ul {
   list-style: none;
@@ -6001,7 +6001,7 @@ hr::after {
   float: left;
 }
 .article img {
-  width: 80%;
+  width: 10rem;
 }
 html {
   background: white;
