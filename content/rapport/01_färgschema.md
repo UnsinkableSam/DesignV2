@@ -7,9 +7,7 @@ Uppgiften handlar om att titta på olika hemsidors färgpalett, typografi och ar
 
 Urval
 -----------------------
-
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
-Hemsidor jag valde forsvarsmakten.se, spotify och Myspace.
+Hemsidor vi valde forsvarsmakten.se, spotify och Myspace.
 
 Metod
 -----------------------
@@ -29,7 +27,7 @@ Resultat
 
 
 #### Hemsida Försvarsmakten
-[FIGURE src="img/forsvarsmakten.jpg?float=left" class="right" caption="Bild på myspace"]
+[FIGURE src="image/forsvarsmakten.jpg?float=left&h=500" class="right" caption="Bild på myspace"]
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #F7F7F7">
@@ -60,7 +58,7 @@ Man lägger märke till att sidans stil är till för att locka. Den är väldig
 
 
 ## Hemsida Spotify
-[FIGURE src="img/spotify.jpg" class="right" caption="Bild på myspace"]
+[FIGURE src="image/spotify.jpg&h=500" class="right" caption="Bild på myspace"]
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
     <td style="height: 50px; width: 50px; background-color: #222326">
@@ -91,10 +89,12 @@ Använder sig av h1, h2, h3, h4. De är olika beroende på situationen.
 
 Typsnitt som används på hela sidan är “CircularSpotifyTxT-Black”. Som hämtas med bootstrap. De kör med en normal font-style för fonten. De har även backup fonts så som font-family: Helvetica, Arial, sans-serif.
 
+De har lyckat framhäva en enkel, lugn och glad hemsida. Det är inte massa onödiga saker som gör det svårt att hitta fram till budskapet av sidan, vilket är musiken. Man hittar snabbt runt och kan ta fram det man vill ha. 
+
 
 ## Hemsida Myspace
 
-[FIGURE src="img/myspace.jpg" class="right" caption="Bild på myspace"]
+[FIGURE src="image/myspace.jpg?h=500" class="right" caption="Bild på myspace"]
 <table style="border-spacing: 4px; border-collapse: separate; color: white">
     <tbody>
         <tr>
@@ -124,7 +124,7 @@ Vi kom fram till att sidan har försökt köra på en minimalistisk stil där bi
 
 Positiva saker är att navbaren är mörk så fokus hamnar på kontent och det blir en bra kontrast mellan text och bakgrund vilket gör det lätt för användaren att se text.
 
-
+Det känns som sidan inte har direkt lyckats åstakomma det de vill ha utan det har istället blivit för mycket saker som gör det svårt att hitta det budskapet sidan är till för. 
 
 
 Skriven av.
