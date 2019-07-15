@@ -16,6 +16,9 @@ if (isset($class)) {
 }
 
 
-?><article <?= classList($classes) ?>>
+?>
+
+
+<article <?= classList($classes) ?>>
 <?= $content ?>
 </article>

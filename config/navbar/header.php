@@ -54,6 +54,12 @@ return [
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport laddnings tid",
                     ],
+                     [
+                        "text" => "Rapport desigprincip ",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport designprincip",
+                    ],
+                    
                 ],
             ],
         ],

@@ -23,6 +23,9 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -6081,9 +6084,6 @@ fonts Quicksand / Kaushan script / Noto,
 }
 .next {
   float: left;
-}
-.article img {
-  width: 10rem;
 }
 html {
   background: #4C81AA;
