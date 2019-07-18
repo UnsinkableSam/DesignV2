@@ -8,39 +8,34 @@ published: "2018-11-03"
 Mitt andra inlägg
 ==================================
 
-Här är mitt andra blogg inlägg.
+Här solar min familjs hund Lilly. Vet inte direkt varför hon måste ligga i en solstol. 
 
-Nu börjar jag bli varm i kläderna.
-
-<!--more-->
-
-Bilder skall fixas också, javisst ja, men dem innehåler inte blogg-mallen...
-
+Bild tagen med Samsung A7 bildstorlek 4:3 24mp fylling ton automatisk.
 
 
 Original
 -----------------------------------
 
 Text.
-[FIGURE src=image/Snapchat-595843842.jpg&h=500]
+[FIGURE src=image/Snapchat-595843842.jpg&w=500]
+<!--more-->
+### Gaussian blur
 
-### Blur
-
-[FIGURE src=image/Snapchat-595843842.jpg?w=300&save-as=jpg&blur&h=500]
+[FIGURE src=image/Snapchat-595843842.jpg?w=500&convolve=gblur]
 
 
 
-### Sharpen 
+### Rotate 
 
-[FIGURE src=image/Snapchat-595843842.jpg?w=300&save-as=jpg&sharpen&h=500]
+[FIGURE src=image/Snapchat-595843842.jpg?w=500&r=90]
 
 
 
 ### JPG QUALITY SETTING
-
+[FIGURE src=image/Snapchat-595843842.jpg?q=100&w=500]
 
 
 
 
 ### contrast 
-[FIGURE src=image/Snapchat-595843842.jpg&f=contrast,-20&h=500]
+[FIGURE src=image/Snapchat-595843842.jpg&f=contrast,-20&w=500]

@@ -1,0 +1,170 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";
+// Just an example module
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+//@import "base/base.less";
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/layout_default.less";
+@import "layout/responsive_default.less";
+//@import "layout/layout.less";
+//@import "layout/responsive.less";
+@import "layout/regions.less";
+// To add style for ?regions
+/**
+ * My own settings, not currently in their own module.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+fonts Quicksand / Kaushan script / Noto, 
+*/
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Noto+Sans+TC|Quicksand&display=swap");
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/*
+* Desinax figure css 
+*/
+@import "@desinax/figure/less/figure.less";
+
+
+/** 
+* import horizontal grid 
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+/**
+* import vgrid.less
+*/
+@import "layout/vgrid.less";
+
+/**
+* import hgrid.less
+*/
+@import "layout/hgrid.less";
+
+/*
+* basetheme kmom04.
+**/
+@import "kmom4.less";
+
+
+/**
+* typographics
+*/
+// Magic number and default fontsize, together makes up base lineheight
+@magicNumber: 22px;
+@fontSizeBody: 18px;
+
+// Set font family to use
+@fontFamilyHeadings: "Kaushan Script", cursive;
+//@fontFamilyBody: "Quicksand";
+//@fontFamilyCode: "Noto Sans TC", "sans-serif";
+
+
+// layout design colors.
+@htmlBackground: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+@bodyColors: black;
+@siteLogoTextColor: #465768;
+@rm-navbarColor: #263F64;
+@rmDesktopColor: transparent;
+@rm-submenuColor: #1B2938;
+@tocColor: #465768;
+@navbarLinksColor:#465768;
+@headerColor: transparent;
+@ahoverColor: #2E6B99;
+@selectColor: #06111D;
+
+
+
+
+.toc {
+  h4 {
+        -webkit-text-fill-color: white;
+  }
+}
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+html {
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%) !important;
+    
+}
+
+
+h1, h2, h3, h4, h5, p {
+   
+
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.rm-desktop a {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.toc  a {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.toc h4 {
+     color:white !important;
+}
+
+
+.breadcrumb-list  a {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.next-previous  a {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

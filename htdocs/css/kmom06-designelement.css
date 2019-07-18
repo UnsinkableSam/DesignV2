@@ -6017,7 +6017,6 @@ hr::after {
   background: #0F1D2C;
   color: #465768;
 }
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   from {
     background-color: red;
@@ -6026,7 +6025,6 @@ hr::after {
     background-color: yellow;
   }
 }
-/* Standard syntax */
 @keyframes example {
   from {
     background-color: red;
