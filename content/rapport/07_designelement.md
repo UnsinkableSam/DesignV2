@@ -6,38 +6,44 @@ Skriv en eller två rader om vad uppgiften handlar om.
 
 Urval av designelements. 
 =========
-Grayscale https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/grayscale
+Space
 Gradients https://www.w3schools.com/css/css3_gradients.asp
-Glow animate https://codepen.io/FelixRilling/pen/qzfoc
-Shake animate https://css-tricks.com/snippets/css/shake-css-keyframe-animation/
+Färger 
+typografi / fonter
 shadow https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
 
 Metod
 -----------------------
 
-Jag ska vara ärlig och säga när jag valde dessa elementen valde jag inte på något speciellt krav utan bara tog design elements och testade. 
-Det finns ju en hel bunte med element man kan välja på men inte direkt några jag känner skulle hjälpa min design och där av kan det kännas som många inte passar inte.
-Till exempel logo texten som har fått glow. 
+Färger: Jag tyckte det var dags att testa lite mer ljusare färger och försöka hålla det minimalistiskt. Det blev nyans av grå och vit grön färg. Tycker det brukar vara svårt att jobba in grön färg i teman men här passade det bra som en accent färg.
+
+Shadow: Tittade runt på olika sidor och såg hur mycket shadows gör för en design. Tänkte jag skulle hitta någon bra balans med det och tycker jag har lyckats bra med footer, header och lägga till shadow på footer texten vilket skapar lite 3d effekt för ögonen.
+
+Gradients: Vit/svart färger på min logo text kom inte på något annat som kunde göra det snyggare. Men känner fortfarande att den inte riktigt passar in. Vet inte om det är fäger eller fonten.
+
+Typografi: Byte alla min fonter och minskade storleken vilket jag tyckte blev snyggare på större skärm, vet det kan vara lite svårare att läsa men man ibland får man offra lite för snygg design.
 
 
-Delar på sidan som fick ett design element är följande. 
+Space: Skapade lite mer space för att det skulle vara mer luftigt och mindre känsla av att man blir bombad av texter och element. Det blir lungnare.
 
-Min avatar fick shake på hover över elementet. 
 
-Region-flash fick gray-scale on hover. 
 
-Gav shadow till min article vilket var något jag använde redan i början med mitt första tema i kmom03 fast jag använde det på ett annorlunda sätt. 
 
-Site-logo text fick en pulserande glow vilket verkligen får ögonen bara att flyga upp i hörnet och titta på namnet men väldigt fort blir det ett väldigt jobbigt element som bara 
-tar ifrån sidans syfte. 
 
-Jag satte gradient på region-main för att jag kände bara för att testa men det passar ju inte in alls. Försökte även använda färger som hade med temat och göra vilket gjordet lite bättre men känner ännu att min sida utan alla dessa element var mycket snyggare och lättare att titta på. 
 
-Källor hittar ni i urval. 
+
 
 Analys
 -----------------------
-Jag känner inte direkt att design element hjälper min design i detta fall men mitt tema var aldrig tänkt att ha några design element och jag själv föredrar en mer simple minimalistisk sida. 
+
+Det blev snyggare i slutet men det var många gånger jag fick tänka om för att det var svårt att hitta en balans och ett lugn i designen. 
+Men jag är rätt nöjd. Men det finns möjlighet till att göra det bättre. 
+
+
+Förklaring av deisng element länkar 
+http://www2.hawaii.edu/~meidor/art_101/elements_of_design.html
+https://creativemarket.com/blog/10-basic-elements-of-design
+
 
 Referenser
 -----------------------

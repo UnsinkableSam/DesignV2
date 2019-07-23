@@ -18,8 +18,8 @@ Bild tagen med Samsung A7 bildstorlek 4:3 24mp fylling ton automatisk.
 Original
 -----------------------------------
 
-Text.
-[FIGURE src=image/Snapchat-2115566826.jpg?w=400]
+Här orginal bild på Svea som täcker hela text fältet. 
+[FIGURE class="figure left w50" src=image/Snapchat-2115566826.jpg]
 
 <!--more-->
 
@@ -29,7 +29,13 @@ Text.
 
 
 
-Detta här hunden svea. [FIGURE class="left"  src=image/Snapchat-2115566826.jpg?w=400&convolve=edge-alt ]  med flytande text.
+
+[FIGURE class="right w67" src=image/Snapchat-2115566826.jpg?w=400&convolve=edge-alt]
+ 
+<p style="padding-bottom: 50rem"> Detta här hunden svea med edge-alt och flytande text. Det verkar funka men inte så bra i blogg inlägg eftersom man måste ha en lång text för att de ska passa in på blogg formatet. Man kan alltid lägga till padding på texten för att fylla ut.  </p>
+
+
+
 
 ### Emboss-alt
 

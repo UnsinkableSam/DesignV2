@@ -30,7 +30,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  font: 18px/1.22222222 "sans-serif";
+  font: 14px/1.57142857 'Rajdhani', sans-serif;
 }
 @fontfamilybody = "serfi";
 h1,
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Nanum Gothic', sans-serif;
   margin-top: 22px;
   margin-bottom: 22px;
 }
@@ -53,7 +53,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.02923977;
+  line-height: 1.32330827;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 21px;
@@ -71,7 +71,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.3037037;
+  line-height: 1.67619048;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
@@ -81,7 +81,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.3968254;
+  line-height: 1.79591837;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -91,7 +91,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.62962963;
+  line-height: 1.04761905;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -101,7 +101,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.95555556;
+  line-height: 1.25714286;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -110,7 +110,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.95555556;
+  line-height: 1.25714286;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -260,7 +260,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.3968254;
+  line-height: 1.79591837;
   text-align: left;
   font-style: italic;
 }
@@ -5065,14 +5065,14 @@ fonts Quicksand / Kaushan script / Noto,
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v7/vm8vdRfvXFLG3OLnsO15WYS5DG74wNc.ttf) format('truetype');
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v8/vm8vdRfvXFLG3OLnsO15WYS5DG74wNc.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Noto Sans TC';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Noto Sans TC Regular'), local('NotoSansTC-Regular'), url(https://fonts.gstatic.com/s/notosanstc/v8/-nF7OG829Oofr2wohFbTp9i1OCEJ.otf) format('opentype');
+  src: local('Noto Sans TC Regular'), local('NotoSansTC-Regular'), url(https://fonts.gstatic.com/s/notosanstc/v9/-nF7OG829Oofr2wohFbTp9i1OCEJ.otf) format('opentype');
 }
 @font-face {
   font-family: 'Quicksand';
@@ -5080,6 +5080,27 @@ fonts Quicksand / Kaushan script / Noto,
   font-weight: 400;
   font-display: swap;
   src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v9/6xKtdSZaM9iE8KbpRA_hK1QI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('NanumGothic'), url(https://fonts.gstatic.com/s/nanumgothic/v16/PN_3Rfi-oW3hYwmKDpxS7F_D-djb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('NanumGothic'), url(https://fonts.gstatic.com/s/nanumgothic/v16/PN_3Rfi-oW3hYwmKDpxS7F_D-djb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rajdhani Regular'), local('Rajdhani-Regular'), url(https://fonts.gstatic.com/s/rajdhani/v9/LDIxapCSOBg7S-QT7p4HM-M.ttf) format('truetype');
 }
 /**
  * A responsive menu.
@@ -5687,7 +5708,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 * import hgrid.less
 */
 body {
-  font: 18px/1.22222222 "sans-serif";
+  font: 14px/1.57142857 'Rajdhani', sans-serif;
 }
 @fontfamilybody = "serfi";
 h1,
@@ -5696,7 +5717,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Nanum Gothic', sans-serif;
   margin-top: 22px;
   margin-bottom: 22px;
 }
@@ -5710,7 +5731,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.02923977;
+  line-height: 1.32330827;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 21px;
@@ -5728,7 +5749,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.3037037;
+  line-height: 1.67619048;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
@@ -5738,7 +5759,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.3968254;
+  line-height: 1.79591837;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -5748,7 +5769,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.62962963;
+  line-height: 1.04761905;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -5758,7 +5779,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.95555556;
+  line-height: 1.25714286;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5767,7 +5788,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.95555556;
+  line-height: 1.25714286;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5917,7 +5938,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.3968254;
+  line-height: 1.79591837;
   text-align: left;
   font-style: italic;
 }
@@ -5983,133 +6004,276 @@ hr::after {
 }
 @media only screen and (max-width: 414px) {
   body {
-    font: 10px/2.4 "sans-serif";
+    font: 10px/2.4 'Rajdhani', sans-serif;
   }
 }
+/**
+* typographics
+*/
+/*
+* basetheme kmom04.
+**/
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * My own settings, not currently in their own module.
+ */
+/**
+ * Font Awesome.
+ */
+/**
+fonts Quicksand / Kaushan script / Noto, 
+*/
+/**
+ * A responsive menu.
+ */
+/** 
+* import horizontal grid 
+*/
+/**
+ * Import the vertical grid.
+ */
+/**
+* import vgrid.less
+*/
+/**
+* import hgrid.less
+*/
 /**
 * typographics
 */
 /** 
 * Design
 */
-.site-logo-text {
-  color: #fff;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00dee6, 0 0 40px #00dee6, 0 0 50px #00dee6, 0 0 60px #00dee6, 0 0 70px #00dee6;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #110f5c, 0 0 40px #110f5c, 0 0 50px #110f5c, 0 0 60px #110f5c, 0 0 70px #110f5c, 0 0 80px #110f5c;
-  }
-}
 .site-logo-text h2 {
   margin-top: -1px;
   border-bottom: 0px;
 }
 .site-logo-text a {
-  color: #465768;
+  color: #666;
 }
 .outer-wrap-header {
-  background: #0F1D2C;
-  color: #465768;
+  background: #333;
+  color: #375F1B;
 }
-@-webkit-keyframes example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
-}
-@keyframes example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
-}
-.inner-wrap-main {
-  background-image: linear-gradient(#0F1D2C, #465768);
-}
-.region-flash img:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-.article {
-  border: 1px solid #f0a591;
-  box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
+.region-flash {
+  text-align: center;
 }
 .avatar img {
   width: 20rem;
-}
-.avatar:hover {
-  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-@keyframes shake {
-  10%,
-  90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%,
-  80% {
-    transform: translate3d(2px, 0, 0);
-  }
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-  40%,
-  60% {
-    transform: translate3d(4px, 0, 0);
-  }
 }
 .toc ul {
   list-style: none;
 }
 .toc a {
-  color: #465768;
+  color: #375F1B;
 }
 .rm-desktop li {
   background: transparent;
 }
 .rm-desktop ul,
 .rm-desktop ul {
-  background: #1B2938 !important;
+  background: white !important;
 }
 .rm-desktop ul a:hover,
 .rm-desktop ul a:hover {
-  color: #2E6B99;
+  color: #66B032;
 }
 .next-previous {
-  color: #465768;
+  color: #375F1B;
 }
 .next-previous a {
-  color: #465768;
+  color: #375F1B;
 }
 .breadcrumb-list ul a {
-  color: #465768;
+  color: #375F1B;
 }
 .next {
   float: left;
 }
 html {
-  background: #1B2938;
+  background: white;
 }
 html ul li a {
-  color: #06111D;
+  color: #ccc;
 }
 body {
-  color: #619bc0ad;
+  color: #0A4470;
 }
 .selected a {
-  color: #06111D !important;
+  color: white !important;
+}
+a {
+  color: #666;
+}
+.outer-wrap-header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.outer-wrap-header li,
+.outer-wrap-header a {
+  color: #666;
+}
+.outer-wrap-header li span,
+.outer-wrap-header a span,
+.outer-wrap-header li h2,
+.outer-wrap-header a h2 {
+  border: 0px;
+  background: -webkit-linear-gradient(white, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rm-navbar {
+  margin-top: 1px;
+}
+a.rm-button .rm-button-face-1 {
+  color: green;
+}
+.outer-wrap-footer {
+  background: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #666 !important;
+}
+p {
+  color: #666;
+}
+.footer-column-1 {
+  border-right: 1px solid #666;
+}
+.footer-column-2 {
+  border-right: 1px solid #666;
+}
+.article {
+  margin-bottom: 288px;
+}
+.region-main,
+.block {
+  padding-top: 48px;
+  margin-bottom: 70px;
+}
+.region-flash {
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+.footer-column-x img {
+  width: 4rem;
+}
+.site-footer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.site-footer p {
+  color: white !important;
+}
+.next-previous {
+  padding-bottom: 5rem;
+  width: 100%;
+}
+.wrap-sidebar .block {
+  width: 100%;
+}
+.wrap-sidebar .block a:hover {
+  color: white;
+  background: green;
+}
+.inner-wrap-main a:hover {
+  color: white;
+  background: green;
+}
+.blog-toc .toc {
+  width: 100%;
+  list-style: none;
+}
+.blog-toc li {
+  padding: 12px;
+  width: 100%;
+}
+.block h4 {
+  color: black !important;
+  background: green;
+  padding: 12px;
+}
+.article-toc {
+  width: 100%;
+}
+.breadcrumb-list ul {
+  list-style: none;
+}
+.breadcrumb-list ul li a:hover {
+  background: green;
+  color: white;
+}
+.footer-column-x {
+  margin-left: 12.1875%;
+}
+@media only screen and (max-width: 1300px) {
+  .footer-column-x {
+    margin-left: 5.52083333%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .footer-column-x {
+    margin-left: 4.6875%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .rm-desktop {
+    display: none;
+  }
+  .footer-column {
+    margin-left: 11.97916667%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .footer-column-x {
+    margin-left: 0.52083333%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .footer-column {
+    margin-left: 12.1875%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-column {
+    margin-left: 11.77083333%;
+  }
+  .footer-column-x {
+    margin-left: 0.52083333%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .footer-column {
+    margin-left: 11.77083333%;
+  }
+  .footer-column img {
+    width: 2rem;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .footer-column {
+    margin-left: 11.77083333%;
+  }
+  .footer-column img {
+    width: 2rem;
+  }
 }

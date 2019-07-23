@@ -26,7 +26,7 @@ Original
 
 ### Bright with full cover.
 
-[FIGURE  src=image/20190405_194838.jpg&f=brightness,50]
+[FIGURE  src=image/20190405_194838.jpg&f=brightness,50&h=400]
 
 
 

@@ -1,0 +1,396 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";
+// Just an example module
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+//@import "base/base.less";
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/layout_default.less";
+@import "layout/responsive_default.less";
+//@import "layout/layout.less";
+//@import "layout/responsive.less";
+@import "layout/regions.less";
+// To add style for ?regions
+/**
+ * My own settings, not currently in their own module.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+fonts Quicksand / Kaushan script / Noto, 
+*/
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Noto+Sans+TC|Quicksand&display=swap");
+
+// font Josefin Sans
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/** 
+* import horizontal grid 
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+/**
+* import vgrid.less
+*/
+@import "layout/vgrid.less";
+
+/**
+* import hgrid.less
+*/
+@import "layout/hgrid.less";
+
+/**
+* typographics
+*/
+
+
+/*
+* basetheme kmom04.
+**/
+@import "kmom4.less";
+
+// Magic number and default fontsize, together makes up base lineheight
+@magicNumber: 22px;
+@fontSizeBody: 18px;
+
+// Set font family to use
+@fontFamilyHeadings: 'Nanum Gothic', sans-serif;
+@fontFamilyBody: 'Rajdhani', sans-serif;
+//@fontFamilyCode: "Noto Sans TC", "sans-serif";
+
+
+// colors 
+@htmlBackground: white;
+@bodyColors: white;
+@siteLogoTextColor: #ccc;
+@rm-navbarColor: #ccc;
+@rmDesktopColor: transparent;
+@rm-submenuColor: white;
+@tocColor: white;
+@navbarLinksColor: #ccc;
+@ahoverColor: white;
+@selectColor: white;
+@headerColor: white;
+@footerBackgroundColor: white;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrap-all {
+    width: 100%;
+    background-image: url(../img/wall.jpg);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+    scroll-behavior: smooth;
+}
+
+a {
+  color: #ccc;
+}
+
+.outer-wrap-header {
+ background: white;
+}
+
+
+.rm-navbar {
+  margin-top: 0.5rem;
+}
+
+
+
+
+a.rm-button .rm-button-face-1  {
+  color: green;
+
+}
+.outer-wrap-footer {
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+
+
+p {
+  color: white;
+}
+
+.site-logo {
+  
+  h2 {
+    color:#ccc;
+  }
+}
+
+
+.site-logo-text {
+  h2 {
+
+    margin-top: 1rem !important;
+  }
+}
+.footer-column-1 {
+  border-right: 1px solid #666;
+}
+
+
+
+
+.footer-column-2 {
+  border-right: 1px solid #666;
+}
+
+
+.article {
+      margin-bottom: 288px;
+    
+
+    
+      
+}
+
+.region-main, .block {
+  padding-top: 48px;
+  margin-bottom: 70px;
+  h1, h2, h3, h4, h5 {
+  color: white;
+    filter: drop-shadow(30px 10px 4px #000);
+
+    
+}
+
+  
+}
+
+
+.region-flash {
+  display:none;
+}
+
+
+.footer-column-x {
+  img { 
+    width:  4rem;
+  }
+}
+
+.site-footer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  p {color: #ccc !important;
+  }
+}
+
+
+.next-previous {
+  padding-bottom: 5rem;
+  width: 100%;
+
+  
+}
+
+.wrap-sidebar .block {
+  
+  width: 100%;
+  a:hover {
+    color:#ccc;
+    background:white;
+
+  }
+  background:rgba(14, 10, 10, 0.4);
+}
+
+.inner-wrap-main {
+   a:hover {
+    color:#ccc;
+    background:white;
+
+  }
+  
+  .block {
+    img {
+      width: 5rem;
+    }
+        
+  }
+}
+
+.blog-toc {
+  .toc {
+    width: 100%;
+    list-style: none;
+  }
+
+
+  li {
+  padding: 12px;
+  width: 100%;
+}
+} 
+
+ .block {
+  h4 {
+  color: white !important;
+  //background:white;
+  padding: 12px;
+}
+
+
+}
+
+.toc li {
+}
+
+
+.article-toc {
+  width: 100%;
+  
+}
+
+.breadcrumb-list  {
+  ul {
+    list-style: none;
+    li {
+      a:hover {
+        background:green; 
+        color:white;
+      }
+    }
+  }
+  
+  
+}
+
+.footer-column-x {
+  //margin-left: 40%;
+  #desinax-vgrid.push(2.8);
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .footer-column-x {
+      #desinax-vgrid.push(1.2);
+    }
+
+}
+
+@media only screen and (max-width: 1150px) {
+
+    .footer-column-x {
+      #desinax-vgrid.push(1);
+    }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .rm-desktop {
+     display:none;
+  }
+    .footer-column {
+      #desinax-vgrid.push(2.75);
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+ 
+    
+
+    .footer-column-x {
+      #desinax-vgrid.push(0);
+    }
+
+
+   
+ 
+}
+
+
+@media only screen and (max-width: 850px) {
+  
+
+  .footer-column {
+      #desinax-vgrid.push(2.8);
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .footer-column {
+      #desinax-vgrid.push(2.7);
+    }
+
+    .footer-column-x {
+      #desinax-vgrid.push(0);
+    }
+
+}
+
+
+@media only screen and (max-width:  415px) {
+
+  .footer-column {
+    img {width: 2rem;}
+      #desinax-vgrid.push(2.7);
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:  475px) {
+ 
+  .footer-column {
+    img {width: 2rem;}
+      #desinax-vgrid.push(2.7);
+    }
+
+
+}
